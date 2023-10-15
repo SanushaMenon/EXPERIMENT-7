@@ -1,0 +1,45 @@
+//PRN: 22070123099
+//EXP.7
+//NAME:SANUSHA MENON
+
+//CHECK MARKS
+#include<iostream>
+using namespace std;
+int main() {
+    int i,num;
+    int m[5];
+    for (i=0;i<=4;i++)
+    {
+        cout<<"ENTER STUDENT MARKS"<<endl;
+        cin>>m[i];
+    }
+    cout<<"ENTER NUMBER TO BE CHECKED ";
+    cin>>num;
+    for (i=0;i<=4;i++)
+    {
+        if (num==m[i])
+        {
+        cout<<"NUMBER IS THERE at"<<i+1<<" postion";
+        break;
+        }
+        if (i==5)
+        {
+        cout<<"NUMBER IS not THERE";
+        break;
+        }
+
+    }
+}
+
+ENTER STUDENT MARKS
+22
+ENTER STUDENT MARKS
+33
+ENTER STUDENT MARKS
+44
+ENTER STUDENT MARKS
+55
+ENTER STUDENT MARKS
+66
+ENTER NUMBER TO BE CHECKED 44
+NUMBER IS THERE at3 postion
