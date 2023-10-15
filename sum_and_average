@@ -1,0 +1,30 @@
+//PRN: 22070123099
+//EXP.7
+//NAME:SANUSHA MENON
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int marks[5], i, j;
+    float sum=0, avg;
+    for(i=0;i<5;i++) {
+        cout<<"Enter marks-"<<i+1<<": ";
+        cin>>marks[i];
+    }
+    for(j=0;j<5;j++) {
+        sum = sum + marks[j];
+    }
+    cout<<"Sum of marks = "<<sum<<endl;
+    avg = sum/5;
+    cout<<"Average = "<<avg;
+
+/*Output 
+Enter marks-1: 96
+Enter marks-2: 77
+Enter marks-3: 89
+Enter marks-4: 78
+Enter marks-5: 90
+Sum of marks = 430
+Average = 86
+}
